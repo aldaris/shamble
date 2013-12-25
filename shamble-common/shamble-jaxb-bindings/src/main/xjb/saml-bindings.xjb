@@ -5,27 +5,27 @@
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <jxb:bindings schemaLocation="../xsd/xenc-schema.xsd" node="/xs:schema">
         <jxb:schemaBindings>
-            <jxb:package name="org.playma.shamble.jaxb.xmlenc" />
+            <jxb:package name="org.shamble.jaxb.xmlenc" />
         </jxb:schemaBindings>
     </jxb:bindings>
     <jxb:bindings schemaLocation="../xsd/xmldsig-core-schema.xsd" node="/xs:schema">
         <jxb:schemaBindings>
-            <jxb:package name="org.playma.shamble.jaxb.xmldsig" />
+            <jxb:package name="org.shamble.jaxb.xmldsig" />
         </jxb:schemaBindings>
     </jxb:bindings>
     <jxb:bindings schemaLocation="../xsd/saml-schema-assertion-2.0.xsd" node="/xs:schema">
         <jxb:schemaBindings>
-            <jxb:package name="org.playma.shamble.jaxb.saml2.assertion" />
+            <jxb:package name="org.shamble.jaxb.saml2.assertion" />
         </jxb:schemaBindings>
     </jxb:bindings>
     <jxb:bindings schemaLocation="../xsd/saml-schema-protocol-2.0.xsd" node="/xs:schema">
         <jxb:schemaBindings>
-            <jxb:package name="org.playma.shamble.jaxb.saml2.protocol" />
+            <jxb:package name="org.shamble.jaxb.saml2.protocol" />
         </jxb:schemaBindings>
     </jxb:bindings>
     <jxb:bindings schemaLocation="../xsd/saml-schema-metadata-2.0.xsd" node="/xs:schema">
         <jxb:schemaBindings>
-            <jxb:package name="org.playma.shamble.jaxb.saml2.metadata" />
+            <jxb:package name="org.shamble.jaxb.saml2.metadata" />
         </jxb:schemaBindings>
     </jxb:bindings>
 </jxb:bindings>
