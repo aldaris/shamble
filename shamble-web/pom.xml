@@ -24,12 +24,38 @@
         <artifactId>shamble</artifactId>
         <version>0.1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>shamble-sp</artifactId>
-    <name>ShAMbLe SP implementation</name>
+    <artifactId>shamble-web</artifactId>
+    <packaging>war</packaging>
+    <name>ShAMbLe Web Application</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>8.1.14.v20131031</version>
+                <configuration>
+                    <connectors>
+                        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                            <port>7000</port>
+                            <maxIdleTime>3600000</maxIdleTime>
+                        </connector>
+                    </connectors>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>org.shamble</groupId>
-            <artifactId>shamble-utils</artifactId>
+            <artifactId>shamble-idp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.shamble</groupId>
+            <artifactId>shamble-sp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
         </dependency>
     </dependencies>
 </project>

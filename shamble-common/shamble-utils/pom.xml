@@ -29,6 +29,20 @@
     <name>ShAMbLe Common Utilities</name>
     <dependencies>
         <dependency>
+            <groupId>org.shamble</groupId>
+            <artifactId>shamble-jaxb-bindings</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>6.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
         </dependency>

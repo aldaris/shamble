@@ -32,6 +32,5 @@
     <modules>
         <module>shamble-jaxb-bindings</module>
         <module>shamble-utils</module>
-        <module>shamble-xml-utils</module>
     </modules>
 </project>
